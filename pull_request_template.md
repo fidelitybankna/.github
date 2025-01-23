@@ -1,8 +1,9 @@
-## CAB Details
+# CAB Details
+
 |||
 |----------------|---------------|
-| Number         | <!--cab_number-->    |
-| Level          | <!--cab_level-->    |
-| Approved      |<ul><li><!--cab_approval-->[ ] <cab approval></li></ul>|
+| <span id=cab_number> Number     </span>||
+| <span id=cab_level> Level       </span>||
+| <span id=cab_approval> Approved </span>||
 
 ## Description
