@@ -1,11 +1,9 @@
----
 name: Rebuild Failed
 about: Scheduled rebuild failed
 title: "[REBUILD FAILED]"
 labels: ["rebuild failed"]
 assignees:
-    - fidelitybankna/software-development
+    - emcnelly
+    - kevin-brink
+    - jbsinger-jpg
 projects: ["fidelitybankna/8"]
-
----
-
