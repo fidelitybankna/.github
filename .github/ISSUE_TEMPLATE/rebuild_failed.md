@@ -6,4 +6,3 @@ assignees:
     - emcnelly
     - kevin-brink
     - jbsinger-jpg
-projects: ["fidelitybankna/8"]
