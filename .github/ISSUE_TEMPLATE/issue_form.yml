@@ -1,0 +1,88 @@
+name: Issue Form
+description: Report a problem, request an improvement, or propose work.
+body:
+  - type: input
+    id: summary
+    attributes:
+      label: Summary
+      description: A clear, one-sentence description of the problem or request.
+      placeholder: Briefly summarize the issue or request.
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem_statement
+    attributes:
+      label: Problem Statement
+      description: What is wrong, missing, or needs improvement?
+      placeholder: Describe the core problem.
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Relevant background, links, screenshots, logs, and prior decisions/discussion.
+      placeholder: Add useful background and references.
+    validations:
+      required: true
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact
+      description: Who or what is affected? What is the business, customer, or operational impact?
+      placeholder: Describe the impact and urgency.
+    validations:
+      required: true
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: What is included and explicitly out of scope?
+      placeholder: List what is in scope and out of scope.
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: Acceptance Criteria
+      description: List testable outcomes.
+      placeholder: |
+        - [ ] Criterion 1
+        - [ ] Criterion 2
+        - [ ] Criterion 3
+    validations:
+      required: true
+
+  - type: textarea
+    id: validation_plan
+    attributes:
+      label: Validation Plan
+      description: How will this be verified? Include commands, test approach, or manual checks.
+      placeholder: Describe how this change will be validated.
+    validations:
+      required: true
+
+  - type: textarea
+    id: risks_and_dependencies
+    attributes:
+      label: Risks and Dependencies
+      description: List key risks, assumptions, blockers, and external dependencies.
+      placeholder: Note risks, dependencies, and mitigations.
+    validations:
+      required: true
+
+  - type: textarea
+    id: related_links
+    attributes:
+      label: Related Links
+      value: |
+        - Related issue(s):
+        - Related PR(s):
+        - Incident/ticket/reference:
+    validations:
+      required: false

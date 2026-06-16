@@ -1,0 +1,42 @@
+name: Sub-Issue Form
+description: Create a child issue linked to a parent issue. Keep it lightweight but actionable.
+body:
+  - type: input
+    id: objective
+    attributes:
+      label: Objective
+      description: One clear, specific goal for this sub-issue.
+      placeholder: The objective for this sub-issue.
+    validations:
+      required: true
+
+  - type: textarea
+    id: definition_of_done
+    attributes:
+      label: Definition of Done
+      description: List testable completion criteria.
+      placeholder: |
+        - [ ] Criterion 1
+        - [ ] Criterion 2
+    validations:
+      required: true
+
+  - type: textarea
+    id: dependencies_and_risks
+    attributes:
+      label: Dependencies and Risks
+      description: Key dependencies, blockers, and risk for this sub-issue.
+      placeholder: Dependencies, blockers, and risks.
+    validations:
+      required: true
+
+  - type: textarea
+    id: related_links
+    attributes:
+      label: Related Links
+      description: Optional but recommended.
+      value: |
+        - Related PR(s):
+        - Related incident/ticket/reference:
+    validations:
+      required: false
